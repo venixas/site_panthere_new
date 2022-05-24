@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1.1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -539,7 +539,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", /* "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; */;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -579,7 +579,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #FFFFFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -650,9 +650,9 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    /* font-family: "helvetica"; */
     font-weight: 400;
-    color: #575757!important;
+    color: #000000/* !important; */
 }
 
 .container {
@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -754,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(115, 103, 69, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -810,22 +810,25 @@ h4 {
     border-color: #364577!important;
 }
 .para-agence-web{
-    font-size: 30px;
+    font-size:20px;
     color: #000000;
+    font-weight:600;
+    
 }
 .citation-pdg{
-font-size: 25px;
+font-size: 18px;
+font-weight:600;
 }
 .nom-pdg{
-font-size:15px;
+font-size:12px;
 }
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+} */
 
-.bg-lines-h2-bg {
+/* .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+} */
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
@@ -858,13 +861,13 @@ font-size:15px;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -914,6 +917,9 @@ font-size:15px;
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1045,8 +1051,3 @@ font-size:15px;
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
