@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 50px;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .navbar {
@@ -775,16 +776,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #Ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C75126;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #642102!important;
     color: #FFFFFF!important;
 }
 
@@ -808,7 +809,16 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
+.para-agence-web{
+    font-size: 30px;
+    color: #000000;
+}
+.citation-pdg{
+font-size: 25px;
+}
+.nom-pdg{
+font-size:15px;
+}
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
